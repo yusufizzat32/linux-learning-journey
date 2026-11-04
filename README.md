@@ -1,6 +1,6 @@
 # journey belajar linux
 welcome! ini repo my perjalanan gwe belajar cloud dari 0 sampe jago
 
-## Daftar Materi:
-1. Navigasi Dasar & Manajemen File
-2. Text Processing: grep, tail, cut
+## yang kupelajarin
+1. Navigasi dasar dan manajemen file
+2. Text processing: grep, tail, cut
