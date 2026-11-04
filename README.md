@@ -1,5 +1,5 @@
 # Linux Journey
-welcome! ini repo my perjalanan gwe belajar cloud dari 0 sampe jago
+Welcome! This is my journey of learning cloud from zero to (hopefully) pro.
 
 ## What I’m Learning
 ### Phase 1: Linux Basics
