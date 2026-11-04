@@ -1,18 +1,18 @@
-# journey belajar linux
+# Linux Journey
 welcome! ini repo my perjalanan gwe belajar cloud dari 0 sampe jago
 
-## yang gw pelajarin
-### Fase 1: Linux dasar
+## What I’m Learning
+### Phase 1: Linux Basics
 1. [Navigasi dasar dan manajemen file](01-linux/besik-komen-linux.md)
 2. Text processing: grep, tail, cut
 
 
 
-## catatan buat diri sendiri
+## Notes to Myself
 
-- pelan-pelan its ok, yang penting konsisten
-- trust then process
+- Slow and steady is totally fine, what matters is staying consistent
+- Trust the process
 
 
 
-⭐ semoga repo ini bisa bantuin belajar orang orang juga
+Hope this repo ends up helping other people learn too
