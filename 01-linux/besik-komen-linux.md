@@ -1,6 +1,6 @@
-# Linux Basic Commands
+# Linux besik komen
 
-## 1. `cd` — Berpindah Direktori
+## 1. `cd` — Pindah Direktori
 
 `cd` digunakan untuk berpindah antar folder (direktori).
 
