@@ -10,7 +10,7 @@ Welcome! This is my journey of learning cloud from zero to (hopefully) pro.
 
 ## Notes to Myself
 
-- Slow and steady is totally fine, what matters is staying consistent
+- Slow is totally fine, what matters is staying consistent
 - Trust the process
 
 
