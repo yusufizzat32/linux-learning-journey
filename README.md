@@ -4,7 +4,7 @@ Welcome! This is my journey of learning cloud from zero to (hopefully) pro.
 ## What I’m Learning
 ### Phase 1: Linux Basics
 1. [Navigasi dasar dan manajemen file](01-linux/besik-komen-linux.md)
-2. Text processing: grep, tail, cut
+2. [Text processing: grep, tail, cut](01-linux/test-fu.md)
 
 
 
