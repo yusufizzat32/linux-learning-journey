@@ -293,3 +293,82 @@ Berarti hanya menampilkan baris pertama sampai ke-5.
 | `\.` | Titik yang sebenarnya |
 
 Kalau ingin mencari **titik yang sebenarnya**, tulis `\.` karena `.` sendiri dalam regex berarti satu karakter apa saja.
+
+---
+
+## 11. `awk` — Memproses Kolom dan Baris
+
+`awk` ini untuk memisahkan kolom berdasarkan spasi dan nge-print kolom yang dipilih, hampir sama kayak `cut`, bedanya `awk` ini menganggap beberapa spasi atau tab yang berurutan sebagai satu pemisah kolom.
+
+### Rumus AWK
+
+```bash
+awk 'pola {perintah}' filennya
+```
+
+- Pola sebenarnya opsional, kalau kosong berarti perintah akan dijalankan ke semua baris.
+- `$` itu kolom, kalau `$0` berarti seluruh baris (semua kolom).
+
+### Mengambil Kolom Tertentu
+
+Contoh:
+
+```bash
+awk '{print $1}' akses.log
+```
+
+Command ini akan nampilin kolom pertama dari semua baris.
+
+Kalau mau menampilkan kolom kedua:
+
+```bash
+awk '{print $2}' akses.log
+```
+
+Kalau mau menampilkan lebih dari satu kolom:
+
+```bash
+awk '{print $1, $2}' akses.log
+```
+
+### Menggunakan Pola untuk Mencari Baris Tertentu
+
+Kalau mau yang spesifik bisa pakai pola, contoh:
+
+```bash
+awk '$1=="Andi"{print $1, $2}' anji.txt
+```
+
+Berarti mencari baris yang kolom pertamanya "Andi", terus menampilkan kolom pertama dan kedua.
+
+### Mencari Baris yang Mengandung Kata Tertentu
+
+Bisa juga mencari baris yang mengandung kata tertentu kayak `grep`.
+
+Contoh:
+
+```bash
+awk '/error/' akses.log
+```
+
+Berarti menampilkan baris yang mengandung kata atau pola `error`.
+
+### Menampilkan Baris Berdasarkan Nomor Baris
+
+Bisa juga menampilkan baris tertentu.
+
+Contoh:
+
+```bash
+awk 'NR==5' file.txt
+```
+
+Berarti menampilkan hanya baris ke-5.
+
+```bash
+awk 'NR>=5' file.txt
+```
+
+Berarti menampilkan baris ke-5 sampai seterusnya.
+
+`NR` adalah variabel bawaan AWK yang menunjukkan nomor baris yang sedang diproses.
